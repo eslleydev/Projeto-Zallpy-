@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(44,34,195);
+    background: linear-gradient(41deg, rgba(44,34,195,1) 0%, rgba(148,113,37,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.tittle {
+    position: absolute;
+    top: 0;
+    padding: 1.5rem 0;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, .1);  
+    margin-bottom: 3em 0;  
+}
+
+.tittle h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;   
+    position: fixed; 
+}
+
+form {
+    margin-top: 5em;
+}
